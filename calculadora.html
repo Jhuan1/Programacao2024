@@ -1,56 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device=width, inicial-sacale=1.0"/>
         
-    </style>
-</head>
+        <title>Calculadora Exemplo de fução no java script</title>
 
-<body>
-    <div class="fundo">
-        <h1>Gabriel Jhuan José Miguel Mikael</h1>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+
         <div class="calculadora">
-            <h1>Calculadora</h1>
-            <p id="resultado">Resultado</p>
-            <table>
-                <tr>
-                    <td><button>C</button></td>
-                    <td><button><</button></td>
-                    </td>
-                    <td><button>/</button></td>
-                    <td><button>X</button></td>
-                </tr>
-                <td><button>7</button></td>
-                <td><button>8</button></td>
-                <td><button>9</button></td>
-                <td><button>-</button></td>
-                <tr>
-                    <td><button>4</button></td>
-                    <td><button>5</button></td>
-                    <td><button>6</button></td>
-                    <td><button>+</button></td>
-                </tr>
-                <tr>
-                    <td><button>1</button></td>
-                    <td><button>2</button></td>
-                    <td><button>3</button></td>
-                    <td rowspan="2"><button>=</button></td>
-                </tr>
-                <tr>
-                    <td colspan="2"><button>0</button></td>
-                </tr>
-            </table>
-        </div>
-    </div>
-</body>
+            <div class="resultado">0</div>
+            <div class="buttons">
+                <button class="botao-cinza">C</button>
+                <button class="botao-cinza">±</button>
+                <button class="botao-cinza">%</button>
+                <button class="botao-laranja">÷</button>
 
+                <button class="botao-cinza-claro">7</button>
+                <button class="botao-cinza-claro">8</button>
+                <button class="botao-cinza-claro">9</button>
+                <button class="botao-laranja">x</button>
+
+                
+                <button class="botao-cinza-claro">4</button>
+                <button class="botao-cinza-claro">5</button>
+                <button class="botao-cinza-claro">6</button>
+                <button class="botao-laranja">-</button>
+
+                <button class="botao-cinza-claro">1</button>
+                <button class="botao-cinza-claro">2</button>
+                <button class="botao-cinza-claro">3</button>
+                <button class="botao-laranja">+</button>
+
+                <button class="botao-cinza-claro button-zero">0</button>
+                <button class="botao-cinza-claro">,</button>
+                <button class="botao-laranja">=</button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
 </html>
