@@ -14,7 +14,7 @@ background-color: #f7f7f7;
 
 .calculadora {
 width: 300px;
-background-color: #464646;
+background-color: #000000;
 border-radius: 10px;
 box-shadow: 0px 4px 4px #000000;
 font-family: "Helvetica Neue", sans-serif;
@@ -51,7 +51,7 @@ cursor: pointer;
 
 .butuon-zero {
 grid-column: span 2;
-background-color: #747474;
+background-color: #858282;
 }
 
 .botao-cinza {
@@ -59,7 +59,7 @@ background-color: #585858;
 }
 
 .botao-cinza-claro {
-background-color: #747474;
+background-color: #858282;
 }
 
 button:active {
@@ -67,5 +67,5 @@ opacity: 0.9;
 }
 
 .botao-laranja {
-background-color: #f2a43b;
+background-color: #ff9100;
 }
